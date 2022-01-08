@@ -1,0 +1,219 @@
+
+body, html{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	
+}
+
+
+
+#nav-brand {
+	cursor: pointer;
+	color: beige;
+	padding-top: 15px ;
+	float: left;
+	margin-left: 40px;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+.header{
+	height: 100%;
+	background-image: url("https://images.unsplash.com/photo-1496536801546-6a02feccde1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+span i{
+	color: turquoise;
+	margin-top: 15px;
+}
+
+
+/*primary styles for buttons*/
+ .navBtn{
+	width: 95px;
+	padding: 9px 0;
+	outline: none; 
+	border: 1.8px solid beige;
+	border-radius: 40px;
+	background: hsla(110, 51%, 50%, 0.49);
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+	color: white;
+	
+
+}
+
+
+ h2{
+	padding-top: 250px;
+	padding-bottom: 0px;
+	font-size: 49px;
+	text-align: center;
+	margin-bottom: 0;
+	color: white;
+}
+
+
+#subheading{
+	text-align: center;
+	color: white;
+	font-size: 21px;
+	margin-top: 8px;
+}
+
+.form-control{
+	border: 0 !important;
+	border-radius: 30px 0 0 30px !important;
+	margin: 2px;
+	box-shadow: none !important;
+
+}
+.input-group{
+	 width: 90%;
+	 max-width: 500px; 
+	 border-radius: 30px;
+	 margin: auto;
+	 padding: 2px;
+	 background: #fff;
+}
+
+
+
+.input-group-text{
+	width: 100px;
+	background-image: linear-gradient(#00ff7e, #1f3d90);
+	color: #fff !important;
+	border: 0 !important;
+	padding: 0 25px !important;
+	border-radius: 30px !important;
+	box-shadow: none !important; 
+}
+
+/*features*/
+.features{
+	padding: 100px 0; 
+}
+
+h3{
+	font-size: 40px;
+	text-align: center;
+}
+
+.featured-img img{
+	width: 100%;
+	position: relative;
+	height: 260px;
+	
+}
+
+#btn{
+	margin-top: 25px; 
+}
+
+#rating{
+	display: inline-block;
+	margin-left: 29px;
+}
+
+
+h4{
+	text-align: center;
+	color: rgba(0, 92, 6, 1);
+}
+
+.feature-box{
+	box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+	margin-bottom: 30px;
+}
+
+.heading{
+	margin-bottom: 40px;
+}
+
+.gallery{
+	padding: 60px 0;
+	background: #efefef;
+}
+
+.gallery-box img{
+	width: 100%;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+	margin: 20px 15px;
+}
+
+.gallery-box h4{
+	display: block;
+	color: #f5f5dc;
+	text-shadow: -2px 2px 2px #001;
+	font-weight: 600;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.gallery-box img:hover{
+	transform: scale(1.11);
+
+}
+
+.banner{
+	height: 80%;
+	background-image: url("https://images.unsplash.com/photo-1516815231560-8f41ec531527?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 14%
+}
+
+
+.banner-highlights{
+	height: 70%;
+	padding: 0 auto;
+	background: rgba(45, 51, 36, 0.52);
+	color: #fff;
+	text-align: center;
+
+
+
+}
+
+button .booking-btn{
+	width: 120px;
+	padding: 9px 0;
+	outline: none; 
+	border: 1.8px solid beige;
+	border-radius: 40px;
+	background: transparent;
+	color: #fff;
+	text-align: center;
+
+
+}
+
+
+#footer-menu {
+	width: 335px;
+	height: auto;
+	margin: 140px auto;
+}
+
+.btn-footer {
+	text-decoration: none!important;
+	outline: none;
+}
+
+.btn-footer:hover {
+	background-color: rgba(0, 255, 221, 0.5);
+}
+
+
+
+
